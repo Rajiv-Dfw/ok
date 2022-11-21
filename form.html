@@ -30,15 +30,33 @@
             <br><br>
 
             <div>
-                <label for="security">Pick a security question</label>
+                <label for="security"><strong>Pick a security question</strong></label>
                 <select name="question" id="security" required>
+                    <option value="default">Pick one of the following</option>
                     <option value="q1">What is your favorite color?</option>
                     <option value="q2">What is your favorite animal?</option>
                     <option value="q3">What middle school did you go to?</option>
                 </select>
-                <br><br>
-                <label for="answer">Enter your answer</label>
+            </div>
+
+            <br><br><br>
+
+            <div>
+                <label for="answer"><strong>Enter your answer</strong></label>
                 <input type="text", id="answer" name="answer">
+            </div>
+
+            <br><br>
+
+            <div>
+                <label for="bio"><strong>Enter some info about you</strong></label><br><br>
+                <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+            </div>
+
+            <br>
+
+            <div>
+                <input type="submit">
             </div>
         </form>
     </body>
